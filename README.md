@@ -5,4 +5,6 @@
 ### Page Models
 
 
-- [Page hidden from ui when instance exists]('./page-hidden-from-ui-when-instance-exists.md')
+- [Page hidden from ui when instance exists](page-hidden-from-ui-when-instance-exists.md)
+
+
