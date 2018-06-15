@@ -5,7 +5,6 @@ Wagtail's Page model has a [is_creatable](http://docs.wagtail.io/en/v2.1/referen
 ``` python
   # app.models.py
 
-
   class OnlyOneDescriptor(object):
       """A descriptor that only allows a single instance of a Page type to
       be created."""
