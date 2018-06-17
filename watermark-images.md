@@ -25,8 +25,8 @@ class WatermarkedOperation(Operation):
 
     def run(self, willow, image, env):
         # willow is the instance of the source image loaded into willow
-        # image is the wagtail image representation which has methods such as image.get_focal_point()
-        # env contains additional info about the execution environment. by default it has original_format
+        # image is the wagtail image representation which has methods like image.get_focal_point()
+        # env contains additional info about the execution environment. 
         # simple transforms can be made by adding to env, such as jpeg_quality
 
         watermark = Image.open(self.watermark_path).convert("RGBA")
