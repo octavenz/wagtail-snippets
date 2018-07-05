@@ -9,4 +9,9 @@
 
 
 ### Images
+
 - [How to add a watermark to images in Wagtail](watermark-images.md)
+
+### Form Builder
+
+- [How to add custom validation to form builder in-built fields](form-builder-field-validation.md)
