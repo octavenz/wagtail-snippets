@@ -15,3 +15,7 @@
 ### Form Builder
 
 - [How to add custom validation to form builder in-built fields](form-builder-field-validation.md)
+
+### Many to Many fields
+
+- [Creating a Many to Many relationship with metadata attached](many-to-many-with-metadata.md)
