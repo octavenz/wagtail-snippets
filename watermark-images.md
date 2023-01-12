@@ -13,11 +13,11 @@ from wagtail.images import image_operations
 from django.conf import settings
 from willow.plugins.pillow import PillowImage
 
-from wagtail.images.image_operations import Operation
+from wagtail.images.image_operations import FilterOperation
 from PIL import Image
 
 
-class WatermarkedOperation(Operation):
+class WatermarkedOperation(FilterOperation):  # Note: Prior to Wagtail ~4.1 this instead inherited from Operation.
     # assumes an image in directory /app/static/watermark/
     watermark_path = settings.STATIC_DIR + '/watermark/watermark.png'
 
