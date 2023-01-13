@@ -6,6 +6,7 @@
 
 
 - [Page hidden from ui when instance exists](page-hidden-from-ui-when-instance-exists.md)
+- [Hand off view logic from Page models to view classes](page-view-class.md)
 
 
 ### Images
